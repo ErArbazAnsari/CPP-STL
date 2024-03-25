@@ -37,5 +37,12 @@ int main(int argc, char const *argv[])
         cout << *it << " ";
     }
 
+    // printing all values of list in reverse order
+    cout << "\nIterating List in Reversed Order: ";
+    for (auto it = myList.rbegin(); it != myList.rend(); it++)
+    {
+        cout << *it << " ";
+    }
+
     return 0;
 }
