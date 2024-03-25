@@ -19,11 +19,12 @@ int main()
     // data = make_pair("Arbaz", make_pair(20, 80));
     // cout << data.first << " " << data.second.first << " " << data.second.second << endl;
 
-    //Pair with 4 Different Data
-    // "Name","Roll_no", "Section", "Obtained_Marks"
-    pair<pair<string,long int>,pair<string, float>> Student_Data;
-    Student_Data = make_pair(make_pair("Arbaz",24018),make_pair("CSE-1",80));
+    // Pair with 4 Different Data
+    //  "Name","Roll_no", "Section", "Obtained_Marks"
+    pair<pair<string, long int>, pair<string, float>> Student_Data;
+    Student_Data = make_pair(make_pair("Arbaz", 24018), make_pair("CSE-1", 80));
 
-    //Printing the student data
-    cout << Student_Data.first.first << " " << Student_Data.first.second << " " << Student_Data.second.first << " " << Student_Data.second.second << endl << endl;
+    // Printing the student data
+    cout << Student_Data.first.first << " " << Student_Data.first.second << " " << Student_Data.second.first << " " << Student_Data.second.second << endl
+         << endl;
 }
